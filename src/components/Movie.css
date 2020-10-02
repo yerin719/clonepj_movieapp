@@ -1,0 +1,28 @@
+.movie {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.movie__poster {
+  width: 140px;
+  height: calc(140px / 2 * 3);
+  margin-top: -30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  margin-right: 20px;
+}
+.movie__text {
+  font-size: 12px;
+  width: auto;
+}
+
+.movie__summary {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
