@@ -1,3 +1,3 @@
 # clone PJ Movie APP
 
-React JS fundamentals Course (2019 Update!)
+React JS fundamentals Course (2020 )

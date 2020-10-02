@@ -1,0 +1,7 @@
+.movie {
+  width: 370px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
